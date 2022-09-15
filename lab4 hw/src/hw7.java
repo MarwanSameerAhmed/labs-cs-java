@@ -11,7 +11,7 @@ public class hw7 {
             JLabel label = new JLabel("hello , your name !");
             label.setOpaque(true);
             label.setBackground(Color.green);
-            frame.add(label);
+           // frame.add(label);
             java.awt.Image image = new ImageIcon("C:\\Users\\aa048\\Desktop\\0_pFV-KQt6xzXBcNPI.png").getImage();
             frame.add(new JLabel(new ImageIcon((image))));
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
